@@ -1,0 +1,11 @@
+var readline = require("readline-sync")
+ console.log("O seu saldo é de R$ 500,00")
+ var saldo = 500
+ var cheque = 700
+
+ var soma = cheque + saldo
+ console.log(`Você recebeu um cheque de R$ 700,00`)
+ console.log(`O seu saldo atual é: R$ ${soma},00`)
+
+
+

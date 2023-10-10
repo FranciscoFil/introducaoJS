@@ -1,0 +1,12 @@
+var readline = require("readline-sync")
+
+var valor = 500
+var bonus = 50
+console.log()
+console.log(`---Salario fixo mensal R$ 500,00--`)
+console.log()
+var quanto = readline.questionFloat(`Quantos softwares voce vendeu este mes: `)
+var resultado = bonus * quanto + valor
+console.log()
+console.log(`-----------Voce vendeu ${quanto} softwares, o seu salario liquido é de: ${resultado}---------`)
+console.log()
